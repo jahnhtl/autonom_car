@@ -23,7 +23,6 @@ Dieses Arbeitsblatt enthält **vier strukturierte Aufgaben** zur Ideenfindung un
 - Entwickelt **drei Steuerkonzepte** anhand der gegebenen Komponenten und überlegt Vor- und Nachteile
 - Notiert je Layout: Sichtfeld, Blindbereiche, Distanzbereiche und mögliche **Fehlerfälle** (glänzende/schwarze Oberflächen, Winkel).
 - Wählt **ein bevorzugtes Layout** und begründet die Wahl.
-- Definiert erste **Abstandsschwellen** (z. B. Abbremsen bei __ cm, Stopp bei __ cm) und ein **Servo‑Scanmuster** (Winkel, Rate), falls genutzt.
 
 **Abgaben (1 Seite + Skizze):**
 - Vergleichstabelle (Vor-/Nachteile, Risiken).  
