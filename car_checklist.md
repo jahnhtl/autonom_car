@@ -1,10 +1,15 @@
 # Checkliste – Auto‑Kit Vollständigkeit
 
+| Projektmitglied 1 | Projektmitglied 2 | Auto-Nummer |
+|-------------------|-------------------|-------------|
+|                   |                   |             |
+
 ## Standard-Ausrüstung
 | ✓ | Teil | Soll | Ist | Bemerkung |
 |---|------|-----:|:---:|-----------|
 | [ ] | Chassisplatten inkl. Kleinteile | 2 |  |  |
-| [ ] | Batteriehalterung | 3 |  |  |
+| [ ] | Batteriehalterung 2-fach | 1 |  |  |
+| [ ] | Batteriehalterung 1-fach | 2 |  |  |
 | [ ] | Räder | 4 |  |  |
 | [ ] | Motoren mit Decoderscheiben | 4 |  |  |
 | [ ] | Arduino Board + USB-Kabel | 1 |  |  |

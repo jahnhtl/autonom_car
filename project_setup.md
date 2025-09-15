@@ -71,12 +71,12 @@ Dieses Arbeitsblatt enthält **vier strukturierte Aufgaben** zur Ideenfindung un
 ## Aufgabe 4 — Projektplan & Tests
 **Ziel:** Nachweis der Funktion planen und die Arbeit strukturieren.
 
-**Vorgehen (20 min):**
+**Vorgehen (30 min):**
 - Entwerft einen **5–7‑Wochen‑Plan** mit Meilensteinen (Chassis & Power, Basisfahrt, kalibrierte Sensorik, erste Autonomie, Tuning, Final‑Demo) und weist Verantwortliche zu.  
 - Erstellt mögliche Tests für den Parcours (Gerade, 90°‑Kurve, enge Passage, Hindernis auf Spur) mit erwarteten Ergebnissen/Metriken: Zielzeit, # Kontakte, Mindestabstand.
 
 **Abgaben (1–2 Seiten):**
-- Gantt‑artige Liste der **Meilensteine mit internen Deadlines** und Teamrollen.  
+- Gantt‑artige Liste der **Meilensteine mit internen Deadlines**.  
 - Arbeitspakete den Meilensteinen zugeordnet.
 
 ---
