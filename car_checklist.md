@@ -44,6 +44,7 @@
 | [ ] | Kiste | 1 |  |  |
 | [ ] | Sharp GP2Y0A02YK0F IR-Range-Sensor | 1 |  |  |
 | [ ] | Sharp GP2Y0A21YK0F IR-Range-Sensor | 2 |  |  |
+| [ ] | Anschlusskabel für Sharp Sensoren | 3 |  |  |
 | [ ] | 2-fache Batteriehalterung mit Schalter | 1 |  |  |
 
 > Tipp: Trage bei „Ist“ die gezählte Anzahl ein und hake die linke Spalte ab, wenn alles passt. In Bemerkung schreibe was genau fehlt.
