@@ -93,6 +93,14 @@ Dieses Arbeitsblatt enthält **fünf strukturierte Aufgaben** zur Ideenfindung u
 **Abgaben (vollständiger Plan):**
 - Liste der **Meilensteine mit internen Deadlines** im Git-Repository angelegt.
 - Arbeitspakete (Issues) von Aufgaben 1-3 den Meilensteinen zugeordnet. (Anleitung siehe unten)
+- Minimale Liste an Meilensteinen
+    - Planung und Konzepte abgschlossen
+    - Fahrzeug fährt
+    - Stabile Sensorwerte
+    - Ganze Strecke gemeistert
+    - Strecke unter 50 Sekunden
+    - Strecke unter 30 Sekunden
+    - Finales Rennen
 
 ---
 
