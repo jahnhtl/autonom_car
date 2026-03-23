@@ -218,19 +218,19 @@ H-Brücke 2:  Motor VR (vorne rechts) ─┐
  │   L298N              │  ▼                │
  │  VCC_Motor (12V)     │← 7,4V Akku+       │ GND (gemeinsam) 
  │  GND                 │← Akku- ───────────│
- │  5V OUT              │→ 5V ────────┐     │
+ │  5V OUT              │→ 5V ────────┐     │ 
  │                      │             ▼     ▼
- │  ENA  ←──── D9 (PWM) │        ┌───────────────────────┐
- │  ENB  ←──── D10 (PWM)│        │   +5V    GND          │
- │  IN1  ←──── D4       │        │                       │
- │  IN2  ←──── D7       │        │    Arduino Uno        │
- │  IN3  ←──── D8       │        │                       │
- │  IN4  ←──── D12      │        │ A0 ← IR links (-45°)  │
+ │  ENA  ←──── D9 (PWM) │→       ┌───────────────────────┐
+ │  ENB  ←──── D10 (PWM)│→       │   +5V    GND          │
+ │  IN1  ←──── D4       │→       │                       │
+ │  IN2  ←──── D7       │→       │    Arduino Uno        │
+ │  IN3  ←──── D8       │→       │                       │
+ │  IN4  ←──── D12      │→       │ A0 ← IR links (-45°)  │
  │                      │        │ A1 ← IR rechts (+45°) │
- │  OUT1 ──→ Motor VL   │        │ A2 ← IR front (0°)    │
- │  OUT2 ──→ Motor HL   │        │                       │
- │  OUT3 ──→ Motor VR   │        │ D2 ← Taster START     │
- │  OUT4 ──→ Motor HR   │        │ D3 ← Taster STOP      │
+ │  OUT1 ──→ Motor L +  │        │ A2 ← IR front (0°)    │
+ │  OUT2 ──→ Motor L -  │        │                       │
+ │  OUT3 ──→ Motor R +  │        │ D2 ← Taster START     │
+ │  OUT4 ──→ Motor R -  │        │ D3 ← Taster STOP      │
  └──────────────────────┘        └───────────────────────┘
 
   Taster-Beschaltung (INPUT_PULLUP):
