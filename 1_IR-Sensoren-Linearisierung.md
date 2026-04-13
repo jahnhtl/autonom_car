@@ -51,12 +51,12 @@ l = 1 / (m · ADC + d) - k
 Mit den Ersatzgrößen `m' = 1/m` und `d' = d/m` ergibt sich die kompakte Formelschreibweise:
 
 ```
-y = (m' / (x + d')) - k
+l = (m' / (x + d')) - k
 ```
 
 | Symbol | Bedeutung |
 |--------|-----------|
-| `y` | Distanz in Zentimeter |
+| `l` | Distanz in Zentimeter |
 | `x` | ADC-Rohwert (0–1023) |
 | `m'` | = 1/m (Kehrwert der Steigung) |
 | `d'` | = d/m (Verschiebungsfaktor) |
@@ -81,9 +81,9 @@ Mit Hilfe eines Tabellenkalkulationprogramms kann die Aufgabe recht leicht gelö
 // Sensor Front (A2) – GP2Y0A02YK0F – Bereich: 20–150 cm
 
 const int IR_SENSOR_FRONT = A2;
-const int PARAM_M_FRONT = 0;
-const int PARAM_D_FRONT = 0;
-const int PARAM_K_FRONT = 0;
+const float PARAM_M_FRONT = 0;
+const float PARAM_D_FRONT = 0;
+const float PARAM_K_FRONT = 0;
 
 uint16_t ir_sensor_front_raw = analogRead(IR_SENSOR_FRONT);
 uint16_t ir_sensor_front_new = (uint16_t) (PARAM_M_FRONT / (ir_sensor_front_raw + PARAM_D_FRONT)) - PARAM_K_FRONT;
