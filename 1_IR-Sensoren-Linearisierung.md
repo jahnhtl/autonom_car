@@ -85,7 +85,7 @@ const int PARAM_M_FRONT = 0;
 const int PARAM_D_FRONT = 0;
 const int PARAM_K_FRONT = 0;
 
-ir_sensor_front_raw = analogRead(IR_SENSOR_FRONT);
+uint16_t ir_sensor_front_raw = analogRead(IR_SENSOR_FRONT);
 ir_sensor_front_new = (uint16_t) (PARAM_M_FRONT / (ir_sensor_front_raw + PARAM_D_FRONT)) - PARAM_K_FRONT;
 
 // limit to min/max specification
